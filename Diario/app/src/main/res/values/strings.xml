@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DiarioDefinitivo</string>
+    <string name="diario_secreto">Diario Secreto</string>
+    <string name="escribe_tu_dia_3">Escribe tu dia :3</string>
+    <string name="a_adir_al_diario">Añadir al diario</string>
+    <string name="volver">Volver</string>
+</resources>

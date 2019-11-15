@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Posts"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"/>
+
+        <ListView
+            android:id="@+id/postsListView"
+            android:layout_width="match_parent"
+            android:layout_height="440dp"
+            android:layout_marginTop="65dp">
+
+        </ListView>
+
+        <Button
+            android:id="@+id/buttonAnadir"
+            android:onClick="anadirPost"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="510dp"
+            android:text="AÑADIR POST"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginLeft="105dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
